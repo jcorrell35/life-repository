@@ -4,7 +4,8 @@
     <title>Categories on Correll</title>
     <link>http://localhost:1313/life-repository/categories/</link>
     <description>Recent content in Categories on Correll</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/life-repository/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/life-repository/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
