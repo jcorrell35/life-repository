@@ -24,12 +24,13 @@ menu:
     - name: Programming
       url: "/programming/"
       weight: 5
-    - name: Places
-      url: "/places/"
-      weight: 6
     - name: Outdoors
       url: "/outdoors/"
+      weight: 6
+    - name: Places
+      url: "/places/"
       weight: 7
+    
 
 params:
   centerTheme: true
