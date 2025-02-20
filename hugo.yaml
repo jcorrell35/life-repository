@@ -1,0 +1,34 @@
+baseurl: "https://example.org/"  # please update this to your actual URL
+languageCode: "en-us"
+title: "Correll"
+theme: "terminal"
+
+taxonomies:
+  category: categories
+  place: places
+  tag: tags
+
+menu:
+  main:
+    - name: Home
+      url: "/"
+      weight: 1
+    - name: Traveling
+      url: "/traveling/"
+      weight: 2
+    - name: Music
+      url: "/music/"
+      weight: 3
+    - name: Cooking
+      url: "/cooking/"
+      weight: 4
+    - name: Programming
+      url: "/programming/"
+      weight: 5
+    - name: Places
+      url: "/places/"
+      weight: 6
+
+params:
+  centerTheme: true
+
