@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Colorado on Correll</title>
-    <link>http://localhost:1313/places/colorado/</link>
+    <link>http://localhost:1313/life-repository/places/colorado/</link>
     <description>Recent content in Colorado on Correll</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/places/colorado/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/life-repository/places/colorado/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Haven Pizza</title>
-      <link>http://localhost:1313/cooking/pizza/</link>
+      <link>http://localhost:1313/life-repository/cooking/pizza/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/cooking/pizza/</guid>
+      <guid>http://localhost:1313/life-repository/cooking/pizza/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../../pizza.png#center&#34; alt=&#34;Pizza&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Yield:&lt;/strong&gt; (2) 13&amp;quot; Pizzas&lt;br&gt;
 &lt;strong&gt;Hydration:&lt;/strong&gt; 68%&lt;/p&gt;

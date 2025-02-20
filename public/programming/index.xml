@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Correll</title>
-    <link>http://localhost:1313/programming/</link>
+    <link>http://localhost:1313/life-repository/programming/</link>
     <description>Recent content in Programming on Correll</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/life-repository/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This Website</title>
-      <link>http://localhost:1313/programming/thiswebsite/</link>
+      <link>http://localhost:1313/life-repository/programming/thiswebsite/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/programming/thiswebsite/</guid>
+      <guid>http://localhost:1313/life-repository/programming/thiswebsite/</guid>
       <description>&lt;p&gt;This website is built with Hugo using the hugo-xmin theme.&lt;/p&gt;
 &lt;p&gt;Link to the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; websiste!&lt;br&gt;
 Link to the &lt;a href=&#34;https://xmin.yihui.org/&#34;&gt;hugo-xmin&lt;/a&gt; website&lt;/p&gt;</description>

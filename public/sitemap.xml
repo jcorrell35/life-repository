@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/places/colorado/</loc>
+    <loc>http://localhost:1313/life-repository/places/colorado/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cooking/</loc>
+    <loc>http://localhost:1313/life-repository/cooking/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/life-repository/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cooking/pizza/</loc>
+    <loc>http://localhost:1313/life-repository/cooking/pizza/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/places/</loc>
+    <loc>http://localhost:1313/life-repository/places/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/programming/</loc>
+    <loc>http://localhost:1313/life-repository/programming/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/programming/thiswebsite/</loc>
+    <loc>http://localhost:1313/life-repository/programming/thiswebsite/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/life-repository/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/music/</loc>
+    <loc>http://localhost:1313/life-repository/music/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/life-repository/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/traveling/</loc>
+    <loc>http://localhost:1313/life-repository/traveling/</loc>
   </url>
 </urlset>

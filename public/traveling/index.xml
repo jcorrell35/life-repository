@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Traveling on Correll</title>
-    <link>http://localhost:1313/traveling/</link>
+    <link>http://localhost:1313/life-repository/traveling/</link>
     <description>Recent content in Traveling on Correll</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/traveling/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://localhost:1313/life-repository/traveling/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
