@@ -1,7 +1,6 @@
 baseurl: "https://jcorrell35.github.io/life-repository/"  # please update this to your actual URL
 languageCode: "en-us"
 title: "Correll"
-theme: "terminal"
 
 taxonomies:
   category: categories
