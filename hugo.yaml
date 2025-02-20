@@ -27,6 +27,9 @@ menu:
     - name: Places
       url: "/places/"
       weight: 6
+    - name: Outdoors
+      url: "/outdoors/"
+      weight: 7
 
 params:
   centerTheme: true
