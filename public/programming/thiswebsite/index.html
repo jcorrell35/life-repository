@@ -6,9 +6,9 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="This website is built with Hugo using the hugo-xmin theme.
-Link to the Hugo websiste!
-Link to the hugo-xmin website
+<meta name="description" content="This website is built with Hugo, using the Terminal theme.
+Hugo takes Markdown files and turns them into static web pages. It was written in Go and it’s a great way to develop a great personal website that has simple navigation, tagging features, and easy to use themes.
+For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo.toml file to hugo.yaml and changed the syntax to the yaml format.
 " />
 <meta name="keywords" content="" />
 
@@ -39,7 +39,7 @@ Link to the hugo-xmin website
   <link rel="stylesheet" href="http://localhost:1313/life-repository/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/life-repository/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+  <link rel="stylesheet" href="http://localhost:1313/life-repository/css/main.min.d07f2f4923ff2c061f2b8d3bae09a9a4c43a97c5f72952d4a5dc2f1d0558914e.css">
 
   
   <link rel="stylesheet" href="http://localhost:1313/life-repository/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
@@ -79,9 +79,9 @@ Link to the hugo-xmin website
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="This Website">
-<meta property="og:description" content="This website is built with Hugo using the hugo-xmin theme.
-Link to the Hugo websiste!
-Link to the hugo-xmin website
+<meta property="og:description" content="This website is built with Hugo, using the Terminal theme.
+Hugo takes Markdown files and turns them into static web pages. It was written in Go and it’s a great way to develop a great personal website that has simple navigation, tagging features, and easy to use themes.
+For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo.toml file to hugo.yaml and changed the syntax to the yaml format.
 " />
 <meta property="og:url" content="http://localhost:1313/life-repository/programming/thiswebsite/" />
 <meta property="og:site_name" content="Correll" />
@@ -92,7 +92,7 @@ Link to the hugo-xmin website
 <meta property="og:image:height" content="627">
 
 
-  <meta property="article:published_time" content="2025-02-18 00:00:00 &#43;0000 UTC" />
+  <meta property="article:published_time" content="2025-02-24 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -148,6 +148,10 @@ Link to the hugo-xmin website
         
       
         
+          <li><a href="/life-repository/outdoors/">Outdoors</a></li>
+        
+      
+        
           <li><a href="/life-repository/places/">Places</a></li>
         
       
@@ -185,6 +189,10 @@ Link to the hugo-xmin website
         
       
         
+          <li><a href="/life-repository/outdoors/" >Outdoors</a></li>
+        
+      
+        
           <li><a href="/life-repository/places/" >Places</a></li>
         
       
@@ -202,7 +210,7 @@ Link to the hugo-xmin website
   <h1 class="post-title">
     <a href="http://localhost:1313/life-repository/programming/thiswebsite/">This Website</a>
   </h1>
-  <div class="post-meta"><time class="post-date">2025-02-18</time></div>
+  <div class="post-meta"><time class="post-date">2025-02-24</time><span class="post-author">A little guide/story of how I made this site</span></div>
 
   
   
@@ -211,9 +219,31 @@ Link to the hugo-xmin website
   
 
   <div class="post-content"><div>
-        <p>This website is built with Hugo using the hugo-xmin theme.</p>
-<p>Link to the <a href="https://gohugo.io">Hugo</a> websiste!<br>
-Link to the <a href="https://xmin.yihui.org/">hugo-xmin</a> website</p>
+        <p>This website is built with <a href="https://gohugo.io">Hugo</a>, using the <a href="https://github.com/panr/hugo-theme-terminal/">Terminal</a> theme.</p>
+<p>Hugo takes <a href="https://www.markdownguide.org/">Markdown</a> files and turns them into static web pages. It was written in Go and it’s a great way to develop a great personal website that has simple navigation, tagging features, and easy to use themes.</p>
+<p>For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo.toml file to hugo.yaml and <a href="https://he3.app/en/blogs/yaml-to-toml-a-comprehensive-guide-for-developers/">changed the syntax to the yaml format</a>.</p>
+<h2 id="usual-setup-for-a-project-looks-something-like-this">Usual setup for a project looks something like this:<a href="#usual-setup-for-a-project-looks-something-like-this" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<blockquote>
+<p>hugo new site quickstart &amp;&amp; cd quickstart</p>
+<p>git init</p>
+<p>git submodule add <a href="https://github.com/theNewDynamic/gohugo-theme-ananke.git">https://github.com/theNewDynamic/gohugo-theme-ananke.git</a> themes/ananke</p>
+<p>echo &ldquo;theme = &lsquo;ananke&rsquo;&rdquo; &raquo; hugo.yaml</p></blockquote>
+<p>I ran into some issues using this method when it came to deploying the site to GitHub. Therefore I ended up copying the files from the theme folder into the base directory.
+<img src="../../filesystem.png#img.center" alt="Files"><br>
+This works, however if you want to change the theme at some point it becomes more difficult than just changing it in the hugo.yaml file.</p>
+<p>I also implemented a simple menu system for the website&rsquo;s navigation:
+<img src="../../menucode.png#img.center" alt="MenuCode"></p>
+<p>I applied the following code to the hugo.yaml file:</p>
+<blockquote>
+<p>centerTheme = &ldquo;true&rdquo;<br>
+And finally I added a taxonomy called &ldquo;places to be able to organize posts by location/state. This is also done inside the hugo.yaml file:<br>
+<img src="../../taxonomies.png#img.center" alt="Taxonomies"></p></blockquote>
+<p><strong>Finally, to run the website locally on your machine you can run the following code:</strong></p>
+<blockquote>
+<p>hugo server &ndash;buildDrafts</p></blockquote>
+<p>I use the option &ndash;buildDrafts to build all blog posts no matter what the status of the draft property is in the file. You can set the draft property to true so your post isn&rsquo;t live until you change the value.</p>
+<blockquote>
+<p>draft: true</p></blockquote>
 
       </div></div>
 

@@ -27,6 +27,8 @@
   </url><url>
     <loc>http://localhost:1313/life-repository/music/</loc>
   </url><url>
+    <loc>http://localhost:1313/life-repository/outdoors/</loc>
+  </url><url>
     <loc>http://localhost:1313/life-repository/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/life-repository/traveling/</loc>

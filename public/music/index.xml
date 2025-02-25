@@ -4,8 +4,7 @@
     <title>Music on Correll</title>
     <link>http://localhost:1313/life-repository/music/</link>
     <description>Recent content in Music on Correll</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/life-repository/music/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/life-repository/music/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

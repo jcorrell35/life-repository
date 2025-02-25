@@ -30,7 +30,6 @@ menu:
     - name: Places
       url: "/places/"
       weight: 7
-    
 
 params:
   centerTheme: true

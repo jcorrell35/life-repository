@@ -3,9 +3,10 @@ title: 'New Haven Pizza'
 draft: false
 places: ['Colorado']
 date: '2025-02-19'
+author: 'paisan'
 ---
 
-![Pizza](../../pizza.png#center)
+![Pizza](../../pizza.png#img.center)
 
 **Yield:** (2) 13" Pizzas  
 **Hydration:** 68%
@@ -16,7 +17,7 @@ Ingredients:
 > Yeast: 1g  
 > Water: 190g
 
-Directions:
+Directions:                 
 1. Combine ingredients into mixer bowl. (Water, Yeast, Flour, Salt)
 2. Mix on low for 5-10 minutes, kneed with hands if less time.
 3. Roll into ball, leave in tupperware for 48-72 hours.
@@ -27,3 +28,4 @@ Directions:
 Baking Instructions (Sheet Pan/Pizza Steel):
 - **Sheet Pan:** Preheat to 525 (Switch racks every 10 minutes). Once good structure, broil 3 minutes.  
 - **Pizza Steel/Stone:** Preheat to 500-550 (1 hour). Bake 5 minutes, spin every 1.5 minutes. Broil finish
+
