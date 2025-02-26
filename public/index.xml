@@ -6,7 +6,21 @@
     <description>Recent content in Home on Correll</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/life-repository/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/life-repository/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A more productive setup with Stage Manager</title>
+      <link>http://localhost:1313/life-repository/programming/bettertouchtool/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/life-repository/programming/bettertouchtool/</guid>
+      <description>I often like to have two sets/groups of window screens. One for the development environment with my Notes/VS Code and one for the “end-user environment” with Chrome and Terminal one for running Hugo’s local server and the other for viewing my website.
+I use stage manager for this and it works really well, however, there is no native way to switch between the stages using a keyboard shortcut. There is only a shortcut for enabling/disabling stage manager.</description>
+      <content>&lt;p&gt;I often like to have two sets/groups of window screens. One for the development environment with my Notes/VS Code and one for the “end-user environment” with Chrome and Terminal one for running Hugo’s local server and the other for viewing my website.&lt;/p&gt;
+&lt;p&gt;I use stage manager for this and it works really well, however, there is no native way to switch between the stages using a keyboard shortcut. There is only a shortcut for enabling/disabling stage manager.&lt;/p&gt;
+&lt;p&gt;While I was looking for how to do this I found a stack overflow post that suggested the &lt;a href=&#34;https://folivora.ai/&#34;&gt;Better Touch Tool&lt;/a&gt;. It has a 45-day trial to start and has a very fair price point of $24 for a lifetime license (much less than I thought it was going to be). The tool allows you to assign custom keyboard shortcuts to perform custom actions. I set my keyboard shortcut to be &lt;strong&gt;Alt&lt;/strong&gt; + &lt;strong&gt;Tab&lt;/strong&gt; and I set the action to move forward through Stage Manager. If you use more than two groups you might want to consider making a shortcut to move backwards through Stage Manager as well.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>This Website</title>
       <link>http://localhost:1313/life-repository/programming/thiswebsite/</link>
