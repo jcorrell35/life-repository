@@ -13,25 +13,15 @@
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/life-repository/cooking/pizza/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../pizza.png#img.center&#34; alt=&#34;Pizza&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Yield:&lt;/strong&gt; (2) 13&amp;quot; Pizzas&lt;br&gt;
-&lt;strong&gt;Hydration:&lt;/strong&gt; 68%&lt;/p&gt;
-&lt;p&gt;Ingredients:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Flour: 280g&lt;br&gt;
-Salt: 7g&lt;br&gt;
-Yeast: 1g&lt;br&gt;
-Water: 190g&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Directions:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Combine ingredients into mixer bowl. (Water, Yeast, Flour, Salt)&lt;/li&gt;
-&lt;li&gt;Mix on low for 5-10 minutes, kneed with hands if less time.&lt;/li&gt;
-&lt;li&gt;Roll into ball, leave in tupperware for 48-72 hours.&lt;/li&gt;
-&lt;li&gt;Before making pizzas, place pizzas on sheet pan sprayed and let sit (room temp) for 5 hours.&lt;/li&gt;
-&lt;li&gt;Place dough on floured surface and stretch. &lt;a href=&#34;https://www.youtube.com/watch?v=8qgbp9llbWE&#34;&gt;Youtube: The Pizza Gavones&lt;/a&gt;. Transfer to prep surface.&lt;/li&gt;
-&lt;li&gt;Put toppings on pizza.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Baking Instructions (Sheet Pan/Pizza Steel):&lt;/p&gt;</description>
+      <description>Yield: (2) 13&amp;quot; Pizzas
+Hydration: 68%
+Ingredients:
+Flour: 280g
+Salt: 7g
+Yeast: 1g
+Water: 190g
+Directions:
+Combine ingredients into mixer bowl. (Water, Yeast, Flour, Salt) Mix on low for 5-10 minutes, kneed with hands if less time. Roll into ball, leave in tupperware for 48-72 hours. Before making pizzas, place pizzas on sheet pan sprayed and let sit (room temp) for 5 hours. Place dough on floured surface and stretch.</description>
       <content>&lt;p&gt;&lt;img src=&#34;../../pizza.png#img.center&#34; alt=&#34;Pizza&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Yield:&lt;/strong&gt; (2) 13&amp;quot; Pizzas&lt;br&gt;
 &lt;strong&gt;Hydration:&lt;/strong&gt; 68%&lt;/p&gt;
@@ -40,7 +30,8 @@ Water: 190g&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Flour: 280g&lt;br&gt;
 Salt: 7g&lt;br&gt;
 Yeast: 1g&lt;br&gt;
-Water: 190g&lt;/p&gt;&lt;/blockquote&gt;
+Water: 190g&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Directions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Combine ingredients into mixer bowl. (Water, Yeast, Flour, Salt)&lt;/li&gt;
