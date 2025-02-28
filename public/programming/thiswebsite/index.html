@@ -8,7 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="This website is built with Hugo, using the Terminal theme.
 Hugo takes Markdown files and turns them into static web pages. It was written in Go and it’s a great way to develop a great personal website that has simple navigation, tagging features, and easy to use themes.
-For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo." />
+For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo.toml file to hugo.yaml and changed the syntax to the yaml format.
+" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -80,7 +81,8 @@ For my site I went with the Terminal theme. I also decided to use the yaml forma
 <meta property="og:title" content="This Website">
 <meta property="og:description" content="This website is built with Hugo, using the Terminal theme.
 Hugo takes Markdown files and turns them into static web pages. It was written in Go and it’s a great way to develop a great personal website that has simple navigation, tagging features, and easy to use themes.
-For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo." />
+For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo.toml file to hugo.yaml and changed the syntax to the yaml format.
+" />
 <meta property="og:url" content="http://localhost:1313/life-repository/programming/thiswebsite/" />
 <meta property="og:site_name" content="Correll" />
 
@@ -225,8 +227,7 @@ For my site I went with the Terminal theme. I also decided to use the yaml forma
 <p>hugo new site quickstart &amp;&amp; cd quickstart</p>
 <p>git init</p>
 <p>git submodule add <a href="https://github.com/theNewDynamic/gohugo-theme-ananke.git">https://github.com/theNewDynamic/gohugo-theme-ananke.git</a> themes/ananke</p>
-<p>echo &ldquo;theme = &lsquo;ananke&rsquo;&rdquo; &raquo; hugo.yaml</p>
-</blockquote>
+<p>echo &ldquo;theme = &lsquo;ananke&rsquo;&rdquo; &raquo; hugo.yaml</p></blockquote>
 <p>I ran into some issues using this method when it came to deploying the site to GitHub. Therefore I ended up copying the files from the theme folder into the base directory.
 <img src="../../filesystem.png#img.center" alt="Files"><br>
 This works, however if you want to change the theme at some point it becomes more difficult than just changing it in the hugo.yaml file.</p>
@@ -236,16 +237,13 @@ This works, however if you want to change the theme at some point it becomes mor
 <blockquote>
 <p>centerTheme = &ldquo;true&rdquo;<br>
 And finally I added a taxonomy called &ldquo;places to be able to organize posts by location/state. This is also done inside the hugo.yaml file:<br>
-<img src="../../taxonomies.png#img.center" alt="Taxonomies"></p>
-</blockquote>
+<img src="../../taxonomies.png#img.center" alt="Taxonomies"></p></blockquote>
 <p><strong>Finally, to run the website locally on your machine you can run the following code:</strong></p>
 <blockquote>
-<p>hugo server &ndash;buildDrafts</p>
-</blockquote>
+<p>hugo server &ndash;buildDrafts</p></blockquote>
 <p>I use the option &ndash;buildDrafts to build all blog posts no matter what the status of the draft property is in the file. You can set the draft property to true so your post isn&rsquo;t live until you change the value.</p>
 <blockquote>
-<p>draft: true</p>
-</blockquote>
+<p>draft: true</p></blockquote>
 
       </div></div>
 

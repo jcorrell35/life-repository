@@ -13,11 +13,12 @@
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/life-repository/programming/bettertouchtool/</guid>
-      <description>I often like to have two sets/groups of window screens. One for the development environment with my Notes/VS Code and one for the “end-user environment” with Chrome and Terminal one for running Hugo’s local server and the other for viewing my website.
-I use stage manager for this and it works really well, however, there is no native way to switch between the stages using a keyboard shortcut. There is only a shortcut for enabling/disabling stage manager.</description>
-      <content>&lt;p&gt;I often like to have two sets/groups of window screens. One for the development environment with my Notes/VS Code and one for the “end-user environment” with Chrome and Terminal one for running Hugo’s local server and the other for viewing my website.&lt;/p&gt;
+      <description>&lt;p&gt;I often like to have two sets/groups of window screens. One for the development environment with my Notes/VS Code and one for the “end-user environment” with Chrome and Terminal for running Hugo’s local server and viewing my website.&lt;/p&gt;
+&lt;p&gt;I use stage manager for this and it works really well, however, there is no native way to switch between the stages using a keyboard shortcut. There is only a shortcut for enabling/disabling stage manager.&lt;/p&gt;</description>
+      <content>&lt;p&gt;I often like to have two sets/groups of window screens. One for the development environment with my Notes/VS Code and one for the “end-user environment” with Chrome and Terminal for running Hugo’s local server and viewing my website.&lt;/p&gt;
 &lt;p&gt;I use stage manager for this and it works really well, however, there is no native way to switch between the stages using a keyboard shortcut. There is only a shortcut for enabling/disabling stage manager.&lt;/p&gt;
 &lt;p&gt;While I was looking for how to do this I found a stack overflow post that suggested the &lt;a href=&#34;https://folivora.ai/&#34;&gt;Better Touch Tool&lt;/a&gt;. It has a 45-day trial to start and has a very fair price point of $24 for a lifetime license (much less than I thought it was going to be). The tool allows you to assign custom keyboard shortcuts to perform custom actions. I set my keyboard shortcut to be &lt;strong&gt;Alt&lt;/strong&gt; + &lt;strong&gt;Tab&lt;/strong&gt; and I set the action to move forward through Stage Manager. If you use more than two groups you might want to consider making a shortcut to move backwards through Stage Manager as well.&lt;/p&gt;
+&lt;p&gt;The tool has a lot more actions and other types of triggers besides just keyboard shortcuts but I have only used it for this one scenario so far. I will update this after my 45-day trial to discuss my experience with it and if it was worth the $24 price point for one trigger/action. If you are interested in what other capabilities Better Touch Tool has check out &lt;a href=&#34;https://folivora.ai/&#34;&gt;their website&lt;/a&gt;. Also &lt;a href=&#34;https://www.reddit.com/r/MacOS/comments/nke8g6/bettertouchtool_is_one_of_the_most_worthit/&#34;&gt;here is a great reddit post that touches more on the value of Better Touch Tool&lt;/a&gt;.&lt;/p&gt;
 </content>
     </item>
     
@@ -27,9 +28,9 @@ I use stage manager for this and it works really well, however, there is no nati
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/life-repository/programming/thiswebsite/</guid>
-      <description>This website is built with Hugo, using the Terminal theme.
-Hugo takes Markdown files and turns them into static web pages. It was written in Go and it’s a great way to develop a great personal website that has simple navigation, tagging features, and easy to use themes.
-For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo.</description>
+      <description>&lt;p&gt;This website is built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, using the &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal/&#34;&gt;Terminal&lt;/a&gt; theme.&lt;/p&gt;
+&lt;p&gt;Hugo takes &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; files and turns them into static web pages. It was written in Go and it’s a great way to develop a great personal website that has simple navigation, tagging features, and easy to use themes.&lt;/p&gt;
+&lt;p&gt;For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo.toml file to hugo.yaml and &lt;a href=&#34;https://he3.app/en/blogs/yaml-to-toml-a-comprehensive-guide-for-developers/&#34;&gt;changed the syntax to the yaml format&lt;/a&gt;.&lt;/p&gt;</description>
       <content>&lt;p&gt;This website is built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, using the &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal/&#34;&gt;Terminal&lt;/a&gt; theme.&lt;/p&gt;
 &lt;p&gt;Hugo takes &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; files and turns them into static web pages. It was written in Go and it’s a great way to develop a great personal website that has simple navigation, tagging features, and easy to use themes.&lt;/p&gt;
 &lt;p&gt;For my site I went with the Terminal theme. I also decided to use the yaml format for the syntax files. For that, I renamed the default hugo.toml file to hugo.yaml and &lt;a href=&#34;https://he3.app/en/blogs/yaml-to-toml-a-comprehensive-guide-for-developers/&#34;&gt;changed the syntax to the yaml format&lt;/a&gt;.&lt;/p&gt;
@@ -38,8 +39,7 @@ For my site I went with the Terminal theme. I also decided to use the yaml forma
 &lt;p&gt;hugo new site quickstart &amp;amp;&amp;amp; cd quickstart&lt;/p&gt;
 &lt;p&gt;git init&lt;/p&gt;
 &lt;p&gt;git submodule add &lt;a href=&#34;https://github.com/theNewDynamic/gohugo-theme-ananke.git&#34;&gt;https://github.com/theNewDynamic/gohugo-theme-ananke.git&lt;/a&gt; themes/ananke&lt;/p&gt;
-&lt;p&gt;echo &amp;ldquo;theme = &amp;lsquo;ananke&amp;rsquo;&amp;rdquo; &amp;raquo; hugo.yaml&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;echo &amp;ldquo;theme = &amp;lsquo;ananke&amp;rsquo;&amp;rdquo; &amp;raquo; hugo.yaml&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I ran into some issues using this method when it came to deploying the site to GitHub. Therefore I ended up copying the files from the theme folder into the base directory.
 &lt;img src=&#34;../../filesystem.png#img.center&#34; alt=&#34;Files&#34;&gt;&lt;br&gt;
 This works, however if you want to change the theme at some point it becomes more difficult than just changing it in the hugo.yaml file.&lt;/p&gt;
@@ -49,16 +49,13 @@ This works, however if you want to change the theme at some point it becomes mor
 &lt;blockquote&gt;
 &lt;p&gt;centerTheme = &amp;ldquo;true&amp;rdquo;&lt;br&gt;
 And finally I added a taxonomy called &amp;ldquo;places to be able to organize posts by location/state. This is also done inside the hugo.yaml file:&lt;br&gt;
-&lt;img src=&#34;../../taxonomies.png#img.center&#34; alt=&#34;Taxonomies&#34;&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;img src=&#34;../../taxonomies.png#img.center&#34; alt=&#34;Taxonomies&#34;&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Finally, to run the website locally on your machine you can run the following code:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;hugo server &amp;ndash;buildDrafts&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;hugo server &amp;ndash;buildDrafts&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I use the option &amp;ndash;buildDrafts to build all blog posts no matter what the status of the draft property is in the file. You can set the draft property to true so your post isn&amp;rsquo;t live until you change the value.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;draft: true&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;draft: true&lt;/p&gt;&lt;/blockquote&gt;
 </content>
     </item>
     
